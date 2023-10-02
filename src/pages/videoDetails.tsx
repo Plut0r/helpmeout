@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/video_repository/header";
 import Details from "../components/video_repository/details";
 

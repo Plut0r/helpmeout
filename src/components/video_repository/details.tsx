@@ -1,5 +1,3 @@
-import React from "react";
-
 function Details() {
   return (
     <div className="container py-5 flex flex-col gap-4">
