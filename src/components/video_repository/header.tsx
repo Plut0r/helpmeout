@@ -4,7 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 function Header() {
   const navigate = useNavigate();
   return (
-    <div className="container flex items-center justify-between py-8">
+    <div className="container flex items-center justify-between py-5 md:py-8">
       <div
         className="cursor-pointer -ml-5 md:-ml-0"
         onClick={() => navigate("/")}

@@ -67,7 +67,10 @@ function Header() {
               How it Works
             </a>
           </ScrollLink>
-          <button className="sora text-[#120B48] text-base font-semibold">
+          <button
+            className="sora text-[#120B48] text-base font-semibold"
+            onClick={() => navigate("/login")}
+          >
             Get Started
           </button>
         </div>
