@@ -4,6 +4,7 @@ import Login from "./pages/login";
 import Store from "./pages/store";
 import Video from "./pages/video";
 import VideoRepository from "./pages/videoRepository";
+import VideoDetails from "./pages/videoDetails";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/store" element={<Store />} />
       <Route path="video_repository" element={<VideoRepository />} />
+      <Route path="video_details" element={<VideoDetails />} />
       <Route path="video" element={<Video />} />
     </MainRoute>
   );
