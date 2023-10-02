@@ -1,6 +1,6 @@
 import { IoIosArrowDown } from "react-icons/io";
 
-const transcriptData = [
+export const transcriptData = [
   {
     id: 1,
     minutes: "0.01",
